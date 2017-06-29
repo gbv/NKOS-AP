@@ -7,15 +7,19 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema"
-    xml:base="http://w3id.org/nkos/nkostype" > 
+    xml:base="http://w3id.org/nkos/nkostype">
+
+  <!-- Document metadata -->
   <rdf:Description rdf:about="http://w3id.org/nkos/nkostype">
     <dcterms:title xml:lang="en">KOS Type Vocabulary</dcterms:title>
     <dcterms:creator>Marcia Zeng</dcterms:creator>
-	  <dcterms:creator>Maja Žumer</dcterms:creator>
-	  <dcterms:contributor>DCMI/NKOS Task Group</dcterms:contributor>
+    <dcterms:creator>Maja Žumer</dcterms:creator>
+    <dcterms:contributor>DCMI/NKOS Task Group</dcterms:contributor>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdfs:seeAlso rdf:resource="http://wiki.dublincore.org/index.php/NKOS_Vocabularies"/>
   </rdf:Description>
+
+  <!-- KOS Types -->
   <rdf:Description rdf:about="http://w3id.org/nkos/nkostype#pick_list">
     <skos:inScheme rdf:resource="http://w3id.org/nkos/nkostype"/>
     <skos:prefLabel xml:lang="en">pick list</skos:prefLabel>

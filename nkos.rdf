@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:dc="http://purl.org/dc/terms/" 
-xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-xmlns:dc11="http://purl.org/dc/elements/1.1/" 
-xmlns:owl="http://www.w3.org/2002/07/owl#" 
-xmlns:voaf="http://purl.org/vocommons/voaf#" 
-xmlns:skos="http://www.w3.org/2004/02/skos/core#" 
-xmlns:adms="http://www.w3.org/ns/adms#" 
-xmlns:dcat="http://www.w3.org/ns/dcat#" 
-xmlns:frbrer="http://iflastandards.info/ns/fr/frbr/frbrer/" 
-xmlns:frsad="http://iflastandards.info/ns/fr/frsad/" 
-xmlns:nkos="http://w3id.org/nkos#" 
-xmlns:prov="http://www.w3.org/ns/prov#"
-xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"> 
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc11="http://purl.org/dc/elements/1.1/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:voaf="http://purl.org/vocommons/voaf#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:frbrer="http://iflastandards.info/ns/fr/frbr/frbrer/"
+    xmlns:frsad="http://iflastandards.info/ns/fr/frsad/"
+    xmlns:nkos="http://w3id.org/nkos#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
 
-<!-- Document metadata -->
-
+  <!-- Document metadata -->
   <rdf:Description rdf:about="http://w3id.org/nkos">
     <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -31,13 +31,13 @@ xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
     <wdrs:describedby rdf:resource="http://wiki.dublincore.org/index.php/NKOS_Vocabularies"/>
     <wdrs:describedby rdf:resource="http://nkos.slis.kent.edu/nkos-ap.html"/>
   </rdf:Description>
-  
+
   <!-- NKOS Object Properties -->
   <rdf:Description rdf:about="#alignedWith">
     <rdfs:label xml:lang="en">Aligned With</rdfs:label>
     <rdfs:comment xml:lang="en">A related resource with which the described resource is aligned.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://w3id.org/nkos"/>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Expression"/>
     <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Expression"/>
@@ -46,7 +46,7 @@ xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
     <rdfs:label xml:lang="en">Based On</rdfs:label>
     <rdfs:comment xml:lang="en">A resource used as the source for a derivative resource.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://w3id.org/nkos"/>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Work"/>
     <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Work"/>
@@ -55,7 +55,7 @@ xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
     <rdfs:label xml:lang="en">Size Note</rdfs:label>
     <rdfs:comment xml:lang="en">Number of concepts, terms, or other semantic units included in a KOS.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://w3id.org/nkos"/>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Expression"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
@@ -64,18 +64,17 @@ xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
     <rdfs:label xml:lang="en">Service Offered</rdfs:label>
     <rdfs:comment xml:lang="en">Services provided to users for the described resources.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://w3id.org/nkos"/>
     <skos:note xml:lang="en">Example: download, extract, query, annotation.</skos:note>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Manifestation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
-
   <rdf:Description rdf:about="#usedBy">
     <rdfs:label xml:lang="en">Used By</rdfs:label>
     <rdfs:comment xml:lang="en">Agent using the described KOS.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://w3id.org/nkos"/>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Expression"/>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Work"/>
@@ -85,12 +84,13 @@ xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
     <rdfs:label xml:lang="en">Update Frequency </rdfs:label>
     <rdfs:comment xml:lang="en">The period in which a KOS is typically updated.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:isDefinedBy rdf:resource="http://w3id.org/nkos"/>
     <dc:description xml:lang="en">Suggest using DCMI Collection Description Frequency Vocabulary. (http://dublincore.org/groups/collections/frequency/) .</dc:description>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Expression"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
   </rdf:Description>
+
   <!-- Re-used Object Properties from other schemas (with NKOS AP constrains and notes) -->
   <rdf:Description rdf:about="http://purl.org/dc/terms/audience">
     <rdfs:label xml:lang="en">Audience</rdfs:label>
@@ -349,7 +349,7 @@ xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
     <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-01-14</dc:issued>
     <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-14</dc:modified><rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/subject"/>
-    <skos:note xml:lang="en">Core element</skos:note>  
+    <skos:note xml:lang="en">Core element</skos:note>
     <skos:note xml:lang="en">This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration.</skos:note>
     <dc:hasVersion rdf:resource="http://dublincore.org/usage/terms/history/#subjectT-002"/>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Work"/>
@@ -384,18 +384,16 @@ xmlns:wdrs="http://www.w3.org/2007/05/powder-s#">
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Work"/>
     <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
   </rdf:Description>
-    
-	<rdf:Description rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
     <rdfs:label xml:lang="en">Derived From</rdfs:label>
-    <rdfs:comment xml:lang="en">A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.</rdfs:comment>    
+    <rdfs:comment xml:lang="en">A derivation is a transformation of an entity into another, an update of an entity resulting in a new one, or the construction of a new entity based on a pre-existing entity.</rdfs:comment>
     <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov"/>
     <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-    <skos:note>Derived-From covers relationships between resources such as translation-of, abridgement-of, extension-of, and version-of. It is different from part-of relationship type.  Consult KOS Relation-Type Vocabulary for examples and possible extended properties. http://wiki.dublincore.org/index.php/NKOS_Vocabularies</skos:note>    
+    <skos:note>Derived-From covers relationships between resources such as translation-of, abridgement-of, extension-of, and version-of. It is different from part-of relationship type.  Consult KOS Relation-Type Vocabulary for examples and possible extended properties. http://wiki.dublincore.org/index.php/NKOS_Vocabularies</skos:note>
     <rdfs:domain rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Expression"/>
     <rdfs:range rdf:resource="http://iflastandards.info/ns/fr/frbr/frbrer/Expression"/>
   </rdf:Description>
-  
-  
+
   <!-- Re-used Classes -->
   <rdf:Description rdf:about="http://purl.org/dc/terms/Agent">
     <rdfs:label xml:lang="en">Agent</rdfs:label>
