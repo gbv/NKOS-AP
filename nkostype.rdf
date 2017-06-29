@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cc="https://creativecommons.org/ns#"
     xmlns:skos="http://www.w3.org/2004/02/skos/core"
     xmlns:nkostype="http://w3id.org/nkos/nkostype"
     xmlns:owl="http://www.w3.org/2002/07/owl"
@@ -21,6 +22,7 @@
     <dc:creator>Maja Žumer</dc:creator>
     <dc:contributor>DCMI/NKOS Task Group</dc:contributor>
     <rdfs:seeAlso rdf:resource="http://wiki.dublincore.org/index.php/NKOS_Vocabularies"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </rdf:Description>
 
   <!-- KOS Types -->
