@@ -4,18 +4,22 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core"
     xmlns:nkostype="http://w3id.org/nkos/nkostype"
     xmlns:owl="http://www.w3.org/2002/07/owl"
-    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/terms/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema"
     xml:base="http://w3id.org/nkos/nkostype">
 
   <!-- Document metadata -->
   <rdf:Description rdf:about="http://w3id.org/nkos/nkostype">
-    <dcterms:title xml:lang="en">KOS Type Vocabulary</dcterms:title>
-    <dcterms:creator>Marcia Zeng</dcterms:creator>
-    <dcterms:creator>Maja Žumer</dcterms:creator>
-    <dcterms:contributor>DCMI/NKOS Task Group</dcterms:contributor>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <dc:title xml:lang="en">KOS Type Vocabulary</dc:title>
+    <dc:description xml:lang="en">Vocabulary of types of Knowledge Organization Systems</dc:description>
+    <dc:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</dc:created>
+    <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-02</dc:issued>
+    <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-10-02</dc:modified>
+    <dc:creator>Marcia Zeng</dc:creator>
+    <dc:creator>Maja Žumer</dc:creator>
+    <dc:contributor>DCMI/NKOS Task Group</dc:contributor>
     <rdfs:seeAlso rdf:resource="http://wiki.dublincore.org/index.php/NKOS_Vocabularies"/>
   </rdf:Description>
 
